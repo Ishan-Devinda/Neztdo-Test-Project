@@ -131,7 +131,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({
             <span className="input-icon">
               <Lock size={18} />
             </span>
-            <input
+            {/* <input
               id="login-password"
               type={showPassword ? 'text' : 'password'}
               value={password}
@@ -140,7 +140,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({
               className="form-input password-input"
               autoComplete="current-password"
               required
-            />
+            /> */}
             {/* <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}

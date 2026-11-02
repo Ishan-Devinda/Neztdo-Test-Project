@@ -128,9 +128,9 @@ export const LoginForm: React.FC<LoginFormProps> = ({
             </button> */}
           </div>
           <div className="input-wrapper">
-            <span className="input-icon">
+            {/* <span className="input-icon">
               <Lock size={18} />
-            </span>
+            </span> */}
             {/* <input
               id="login-password"
               type={showPassword ? 'text' : 'password'}

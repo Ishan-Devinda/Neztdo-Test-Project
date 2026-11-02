@@ -128,9 +128,9 @@ export const LoginForm: React.FC<LoginFormProps> = ({
             </button> */}
           </div>
           <div className="input-wrapper">
-            <span className="input-icon">
+            {/* <span className="input-icon">
               <Lock size={18} />
-            </span>
+            </span> */}
             {/* <input
               id="login-password"
               type={showPassword ? 'text' : 'password'}
@@ -154,7 +154,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({
 
         {/* Remember Me */}
         <div className="remember-row">
-          <label className="checkbox-container">
+          {/* <label className="checkbox-container">
             <input
               type="checkbox"
               checked={rememberMe}
@@ -162,7 +162,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({
             />
             <span className="checkmark"></span>
             <span className="checkbox-label">Keep me signed in for 30 days</span>
-          </label>
+          </label> */}
         </div>
 
         {/* Submit Button */}

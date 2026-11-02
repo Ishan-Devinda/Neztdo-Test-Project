@@ -192,13 +192,13 @@ export const LoginForm: React.FC<LoginFormProps> = ({
       {/* Footer Switcher */}
       <div className="auth-footer">
         <span>Don't have an account yet?</span>
-        <button
+        {/* <button
           type="button"
           onClick={onNavigateToRegister}
           className="inline-switch-btn"
         >
           Create account
-        </button>
+        </button> */}
       </div>
     </div>
   );
